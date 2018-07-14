@@ -1,0 +1,2 @@
+"use strict";function toggleMenu(){0==isOpen?(overlay.classList.remove("hidden"),overlay.classList.add("showing"),isOpen=1,navMenu.innerHTML="CLOSE"):(overlay.classList.add("hidden"),overlay.classList.remove("showing"),isOpen=0,navMenu.innerHTML="MENU")}var overlay=document.getElementById("toggledMenu"),isOpen=0,toggleButton=document.getElementById("navMenu");
+//# sourceMappingURL=./bundle.js.map

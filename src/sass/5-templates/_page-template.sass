@@ -1,0 +1,92 @@
+.content-container
+    min-height: 60vh
+    font:
+        family: $primary-font
+    h1
+        font:
+            size: 42px
+            weight: 600
+        line-height: 1.04
+        letter-spacing: 0.01em
+        color: $dark-blue
+        margin-bottom: 50px
+    h2
+        font:
+            size: 28px
+            weight: 400
+        line-height: 1.22
+        color: $main-grey
+        margin-bottom: 30px
+    p
+        font:
+            size: 21px
+            weight: 400
+        margin-bottom: 30px
+        line-height: 33.18px
+    strong
+        font-weight: 600
+    em
+        font-style: oblique
+    blockquote
+        border-left: 5px solid $light-grey
+        padding-left: 10px
+
+    input
+        &[type=text]
+            border: none
+            border-bottom: 2px solid $main-blue
+            &:focus
+                outline: none
+                color: $main-grey
+        &[type=email]
+            border: none
+            border-bottom: 2px solid $main-blue
+            &:focus
+                outline: none
+                color: $main-grey
+        &[type=tel]
+            border: none
+            border-bottom: 2px solid $main-blue
+            &:focus
+                outline: none
+                color: $main-grey
+        &[type=submit]
+            color #ffffff
+            background-color: $main-blue
+            padding: 10px 15px
+            border: none
+            border-radius: 5px
+            margin: 10px 0
+            @include transition(background-color 0.3s ease)
+            &:hover
+                background-color: $main-blue-indent
+                @include transition(background-color 0.3s ease)
+                cursor: pointer
+    textarea
+            border: none
+            border-bottom: 2px solid $main-blue
+            &:focus
+                outline: none
+                color: $main-grey
+    iframe
+        height: 500px
+        display: block
+        @media screen and (max-width: 780px)
+            display: none
+.wpcf7-validation-errors
+    background-color: #ff6166
+    border: none !important
+    padding: 10px 20px !important
+    border-radius: 3px
+.wpcf7-mail-sent-ok
+    background-color: #77dd77
+    border: none !important
+    padding: 10px 20px !important
+    border-radius: 3px
+.image-mockup
+    margin-bottom: 30px
+    width: 100%
+#bop-all-wrapper
+    margin-bottom: 30px
+.bop-navigation 
+    display: none
